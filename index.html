@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>D3Times</title>
+	<link rel="stylesheet" href="assets/css/style.css">
+	<!-- Latest compiled and minified CSS & JS -->
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="col-xs-12 col-md-12 col-md-offset-0">
+				<h1>D3 Data Overview</h1>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12  col-md-9 col-md-offset-0">
+				<div class="iframeContainer">
+					<!-- Students: Add a responsive iframe here that includes the d3.html file -->
+					<div class="embed-responsive embed-responsive-16by9 mb-4">
+					<iframe id="s-chart" class="embed-responsive-item" src="./d3.html"></iframe>
+					</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-xs-12  col-md-9 col-md-offset-0">
+				<div class="article">
+						<h1><b>Overview of Correlations Between Health Risks, Age, and Income</b></h1>
+						<br>
+						<h4>POVERTY VERSUS LACK OF HEALTHCARE, SMOKING and OBESITY:</h4>
+						<ul>
+							<li>Strong correlation shows increased poverty results in higher rates of people without healthcare.</li>
+							<br>
+							<li>A possible correlations shows a minor increase in smoking for individuals living in higher poverty.</li>
+							<br>
+							<li>Higher degrees of poverty show a possible higher risk of obesity.</li>
+						</ul>
+						<br>
+						<h4>AGE VERSUS LACK OF HEALTHCARE, SMOKING and OBESITY:</h4>
+						<ul>
+							<li>Higher rates of people are covered by healthcare plans in and greater than middle-age.</li>
+							<br>
+							<li>A correlation seems not to exist respective of age versus percentage of popultion that smokes.</li>
+							<br>
+							<li>A correlation doesn't seem evident respective of age versus obesity.</li>
+						</ul>
+						<br>
+						<h4>MEDIAN HOUSEHOLD INCOME VERSUS LACK OF HEALTHCARE, SMOKING and OBESITY:</h4>
+						<ul>
+							<li>A correlation is noticable showing increased household income results in higher rates of people affording healthcare.</li>
+							<br>
+							<li>A correlation indicates that households with lower median income tend to smoke at a higher rate.</li>
+							<br>
+							<li>Similar to smoking percentages, obesity is increased for lower median income levels.</li>
+						</ul>
+				</div>
+			</div>
+		</div>
+	</div>
+
+  <!-- Footer-->
+  <div id="footer">
+    <p>The Coding Boot Camp&copy;2018</p>
+  </div>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/5.5.0/d3.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.9.1/d3-tip.js"></script>
+  <script type="text/javascript" src="./assets/js/app.js"></script>
+
+</body>
+</html>
